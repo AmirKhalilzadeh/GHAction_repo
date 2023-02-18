@@ -31,7 +31,7 @@ jobs:
       - name: install python packages
         run: |
 #          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r adsml.yml
 
       - name: run the wc.py script that counts words in markdown cells
         run: |
