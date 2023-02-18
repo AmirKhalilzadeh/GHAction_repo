@@ -39,4 +39,5 @@ for nb in notebooks:
 
    # total number of words in the Markdown cells
     if len(md):
-        display('total # of words is: ' pd.Series(MD).apply(lambda x: len(x.split())).sum(), 'but excluding headers: 'pd.Series(md).apply(lambda x: len(x.split())).sum())  
+        display('total # of words is: ' pd.Series(MD).apply(lambda x: len(x.split())).sum())  
+        display('but excluding headers there are: ' pd.Series(md).apply(lambda x: len(x.split())).sum())  
