@@ -7,7 +7,7 @@ def read_nb(nb_filename):
         txt = nb_file.read()
     return nbformat.reads(txt, nbformat.NO_CONVERT)
 
-nb_filename= 'P1.ipynb'
+# nb_filename= 'P1.ipynb'
 nb_json = read_nb(nb_filename)
 
 
