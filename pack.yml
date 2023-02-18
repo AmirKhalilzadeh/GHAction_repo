@@ -1,0 +1,4 @@
+name: pack
+dependencies:
+  - nbformat=5.7.3
+  - pandas=1.3
