@@ -1,0 +1,16 @@
+name: workflow to count words
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  
+jobs:
+  hello:
+    runs-on: ubunto-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: hello world
+        run: echo 'hello world'
+        shell: bash
+        
