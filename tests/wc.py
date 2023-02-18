@@ -1,15 +1,16 @@
 import nbformat
 import pandas as pd
 
-
-nb_filename= 'P1.ipynb'
-nb_json = read_nb(nb_filename)
-
 def read_nb(nb_filename):
     """Read notebooks and return content."""
     with open(nb_filename, "rb") as nb_file:
         txt = nb_file.read()
     return nbformat.reads(txt, nbformat.NO_CONVERT)
+
+nb_filename= 'P1.ipynb'
+nb_json = read_nb(nb_filename)
+
+
     
 # Collect markdowns 
 MD = []
