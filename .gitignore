@@ -1,8 +1,8 @@
 # stored data
-./project-1-notebooks
-./project-2-notebooks
-./project-3-notebooks
-./project-4-notebooks
+project-*/epfl-extension-*
+# **/project-2-notebooks/epfl-extension-*
+# **/project-3-notebooks/epfl-extension-*
+# **/project-4-notebooks/epfl-extension-*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
