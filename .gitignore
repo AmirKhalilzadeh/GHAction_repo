@@ -1,8 +1,18 @@
 # stored data
-project-*/epfl-extension-*
-# **/project-2-notebooks/epfl-extension-*
-# **/project-3-notebooks/epfl-extension-*
-# **/project-4-notebooks/epfl-extension-*
+project-*/
+
+# workflow
+.github/
+
+# python
+*.py
+
+# other
+*.txt
+P*
+wc*
+GH*
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
